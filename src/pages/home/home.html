@@ -1,12 +1,18 @@
 <ion-header>
   <ion-navbar>
-    <ion-title >GO-Micro Powered by Phonelabs</ion-title>
+    <ion-card-header>GoMicro</ion-card-header>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>GO-Micro</h2>
-  <button ion-button block outline positve  (click)="takePhoto()">
+  <ion-segment>
+    <ion-segment-button>
+      Powered by Phonelabs
+    </ion-segment-button>
+  </ion-segment>
+  <span></span>
+
+  <button ion-button block outline positve round color="dark"(click)="takePhoto()">
     <ion-icon name="camera"></ion-icon>&nbsp;Take Photo
     </button>
 
