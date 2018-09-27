@@ -57,7 +57,7 @@ export class HomePage {
 
   takePhoto() {
     console.log("coming here");
-
+    
     const options: CameraOptions = {
       quality: 50,
       destinationType: this.camera.DestinationType.DATA_URL,
@@ -65,7 +65,8 @@ export class HomePage {
       mediaType: this.camera.MediaType.PICTURE,
       targetWidth: 450,
       targetHeight: 450,
-      saveToPhotoAlbum: false
+      saveToPhotoAlbum: true,
+      allowEdit: true
     };
 
     this.camera.getPicture(options).then(
