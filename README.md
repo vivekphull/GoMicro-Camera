@@ -1,6 +1,3 @@
-# Ionic 2 and Angular 2 using the Camera
-Using the camera with Ionic 2 native, taking multiple pictures with Delete Option. This package is powered by www.9lessons.info blog feed content and developed using Ionic v2 and Angular 2.   
-
 <table><tr>
 <td width="25%">
 Take Photo
