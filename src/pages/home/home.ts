@@ -2,6 +2,7 @@ import { Component } from "@angular/core";
 import { NavController, AlertController } from "ionic-angular";
 import { Camera, CameraOptions } from "@ionic-native/camera";
 import { AuthService } from "../../providers/auth-service/auth-service";
+import { Img } from "ionic-angular/umd/components/img/img-interface";
 // import {
 //   FileTransfer,
 //   FileUploadOptions,
